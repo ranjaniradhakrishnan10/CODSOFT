@@ -1,0 +1,96 @@
+body{
+    background:#FFF8F0;
+    color:#444;
+    line-height:1.6;
+}
+
+header{
+    background:#B8A2D9;
+    color:white;
+    text-align:center;
+    padding:40px;
+}
+
+
+section{
+    background:#FFFDF8;
+    margin:20px;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 3px 10px rgba(0,0,0,0.08);
+}
+
+section h2{
+    color:#8E7AB5;
+    margin-bottom:15px;
+}
+
+
+#about{
+    display:flex;
+    align-items:center;
+    gap:40px;
+}
+
+.about-image{
+    flex:1;
+    text-align:left;
+}
+
+.about-text{
+    flex:2;
+}
+
+.about-image img{
+    width:250px;
+    height:250px;
+    border-radius:50%;
+    object-fit:cover;
+    border:5px solid #B8A2D9;
+}
+
+
+#skills li{
+    background:#E6DDF5;
+    color:#5B4B8A;
+    padding:12px;
+    margin:8px 0;
+    border-radius:8px;
+    font-weight:bold;
+}
+
+
+.project-card{
+    background:#FAF7FF;
+    border:1px solid #E6DDF5;
+    padding:20px;
+    margin-top:20px;
+    border-radius:12px;
+}
+
+.project-card h3{
+    color:#8E7AB5;
+}
+
+
+#resume a{
+    display:inline-block;
+    background:#B8A2D9;
+    color:white;
+    text-decoration:none;
+    padding:12px 20px;
+    border-radius:8px;
+}
+
+#resume a:hover{
+    background:#8E7AB5;
+}
+
+
+footer{
+    background:#B8A2D9;
+    color:white;
+    text-align:center;
+    padding:15px;
+    margin-top:20px;
+}
